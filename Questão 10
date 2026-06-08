@@ -1,0 +1,16 @@
+#criando uma lista vazia
+numeros = []
+
+#lendo 5 numeros inteiros
+for i in range(5):
+    numero = int(input(f"Digite o {i+1}º número: "))
+    numeros.append(numero)
+
+#exibindo todos os numeros
+print("\nNúmeros digitados:")
+for numero in numeros:
+    print(numero)
+
+#exibindo o maior e o menor número
+print("\nMaior número:", max(numeros))
+print("Menor número:", min(numeros))
