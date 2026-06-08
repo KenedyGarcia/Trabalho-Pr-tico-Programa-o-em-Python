@@ -1,0 +1,9 @@
+#leitura da média e frequência
+media = float (input("Digite a média do aluno: "))
+frequencia = float (input("Digite a frequência (%) "))
+
+#verificação da aprovação
+if media >= 7 and frequencia >= 75:
+    print("Aluno aprovado!")
+else:
+    print("Aluno reprovado!")
