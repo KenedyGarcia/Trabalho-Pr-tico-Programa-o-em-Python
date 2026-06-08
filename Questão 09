@@ -1,0 +1,12 @@
+Cadastro de Aluno
+#criando o dicionario
+aluno = {
+    "nome": input("Digite o nome do Aluno: "),
+    "idade": int(input("Digite a idade: ")),
+    "curso": input("Digite o curso: ")
+}
+#exibindo os dados
+print("\nDados do Aluno: ")
+print("nome:", aluno ["nome"])
+print("idade:", aluno ["idade"])
+print("curso:", aluno ["curso"])
