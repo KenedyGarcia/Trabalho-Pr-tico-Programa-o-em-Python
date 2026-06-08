@@ -1,0 +1,8 @@
+#armazenamento de dados
+nome = "Kenedy Garcia"
+idade = 30
+altura = 1.75
+#exibindo dados
+print("nome:", nome)
+print("idade:", idade)
+print("altura: ", altura, "m")
