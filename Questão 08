@@ -1,0 +1,13 @@
+#criando a lista vazia
+lista_compras = [ ]
+
+#lendo os 5 itens
+for i in range(5):
+    item = input (f"Digite o item {i+1}: ")
+    lista_compras.append(item)
+
+#exibindo a lista
+print("\nlista de Compras:" )
+
+for item in lista_compras:
+    print ("-", item)
