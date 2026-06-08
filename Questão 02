@@ -1,0 +1,16 @@
+#leitura dos numeros
+num1 = float (input("Digite o primeiro numero: "))
+num2 = float (input("Digite o segundo numero"))
+
+
+#operações matemáticas
+soma = num1 + num2
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2
+
+#exibição dos resultados
+print("Soma:", soma)
+print("subtracao: ", subtracao)
+print("multiplicacao: ", multiplicacao)
+print("divisao: ", divisao)
