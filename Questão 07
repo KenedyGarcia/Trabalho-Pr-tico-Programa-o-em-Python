@@ -1,0 +1,8 @@
+#leitura do número
+numero = int(input("Digite um número: "))
+
+#exibição da tabuada
+print(f"tabuada do {numero} ")
+
+for i in range (1, 5):
+    print(f"{numero} x {i} = {numero * i}")
